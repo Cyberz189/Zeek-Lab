@@ -45,7 +45,13 @@ Now, by running Zeek and identifying the pcap file I would like to check (http.p
 
 
 
-Using the "cat" command to open the signature.log gives us details on what zeek picked up. Among the numerous information detected by the zeek signature is the source address, source port, destination address, and destination port. The command "cat signature.log | zeek-cut src_addr" points me directing to the source address thats causing the event and alerts to trigger.
+Using the "cat" command to open the signature.log provides us with details on what Zeek picked up. Among the numerous pieces of information detected by the Zeek signature are the source address, source port, destination address, and destination port. The command "cat signature.log | zeek-cut src_addr" points directly to the source address causing the event and triggering alerts.
+The source address was identified as 10.10.57.178.
+
+
+![IMG_8667](https://github.com/Cyberz189/Zeek-Lab/assets/163569052/bf877c52-8412-420d-9dca-437ba059a4b4)
+![IMG_8668](https://github.com/Cyberz189/Zeek-Lab/assets/163569052/848bc56e-470a-4ed8-8b1f-6220de9aa474)
+
 
 
 
