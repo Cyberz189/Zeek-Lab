@@ -30,7 +30,7 @@ To start off, first find the folder with the signatures file, used to edit and s
 
 ![IMG_8662](https://github.com/Cyberz189/Zeek-Lab/assets/163569052/30fb87c2-9c6f-44bf-a4b4-9b4b41fd6118)
 
-Opening the signature file lets me edit the IP Protocol [(TCP),(Layer 4)] which is identified as ip.proto == tcp, dst-port which is the destination port, in this case being port 80
+Opening the signature file allows me to edit the IP Protocol (TCP, Layer 4), which is identified as ip.proto == tcp, and the destination port, which in this case is port 80. The payload enables us to define the type of content we are searching for in the packets, in this case, "password". The event allows us to configure the alert once the signature has been confirmed.
 
 Every screenshot should have some text explaining what the screenshot is about.
 
