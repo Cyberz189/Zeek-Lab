@@ -21,7 +21,16 @@ The objective of utilizing Zeek is to enhance network security by providing comp
 
   
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+
+![IMG_8660](https://github.com/Cyberz189/Zeek-Lab/assets/163569052/f6e9a99e-4582-400c-9128-89a659bd42e1)
+![IMG_8661](https://github.com/Cyberz189/Zeek-Lab/assets/163569052/93d07833-6eaf-4512-9f6b-e0ee44cea9a3)
+
+
+To start off, first find the folder with the signatures file, used to edit and set the "rules" of what Zeek is goinhg to look for once activated. 
+
+![IMG_8662](https://github.com/Cyberz189/Zeek-Lab/assets/163569052/30fb87c2-9c6f-44bf-a4b4-9b4b41fd6118)
+
+Opening the signature file lets me edit the IP Protocol [(TCP),(Layer 4)] which is identified as ip.proto == tcp, dst-port which is the destination port, in this case being port 80
 
 Every screenshot should have some text explaining what the screenshot is about.
 
