@@ -41,8 +41,14 @@ Now, by running Zeek and identifying the pcap file I would like to check (http.p
 
 
 ![IMG_8665](https://github.com/Cyberz189/Zeek-Lab/assets/163569052/8c7cb79c-a007-48dc-b6f0-a86cf2f96abc)
+![IMG_8666](https://github.com/Cyberz189/Zeek-Lab/assets/163569052/ba955d04-d359-4c8c-be77-2b933d9e3a46)
 
-Using the "cat" command to open the signature.log gives us details on what zeek picked up. Among the numerous information detected by the zeek signature is the source address, source port, destination address, and destination port,
+
+
+Using the "cat" command to open the signature.log gives us details on what zeek picked up. Among the numerous information detected by the zeek signature is the source address, source port, destination address, and destination port.
+
+
+
 
 Every screenshot should have some text explaining what the screenshot is about.
 
