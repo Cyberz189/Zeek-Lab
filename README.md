@@ -52,7 +52,7 @@ The source address was identified as 10.10.57.178.
 ![IMG_8667](https://github.com/Cyberz189/Zeek-Lab/assets/163569052/bf877c52-8412-420d-9dca-437ba059a4b4)
 ![IMG_8668](https://github.com/Cyberz189/Zeek-Lab/assets/163569052/848bc56e-470a-4ed8-8b1f-6220de9aa474)
 
-
+Finally, by once again using the "cat signature | zeek-cut src_port" Zeek is able to provide me with the source port thats causing the event and is also tied into the signature. In this case theres 2 ports detected by Zeek, ports 38706, and ports 38712. This information allows us to use filters within Zeek to look at specific information within the packets found in the pcap file. Continuing on with opening the conn.log im able to use the filters to get additional ports, orgin ip, targeted ports,received packets count, along with the sent packet counts
 
 
 
